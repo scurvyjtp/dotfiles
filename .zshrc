@@ -7,6 +7,7 @@ setopt histignorealldups sharehistory
 
 # vi keybindings
 bindkey -v
+bindkey "^R" history-incremental-search-backward
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
