@@ -8,6 +8,8 @@ set autoindent
 set smartindent
 set hlsearch
 set cursorline
+set number
+
 "set spell spelllang=en_us
 match ErrorMsg '\s\+$'
 
